@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_title">My App Portfolio</string>
+    <string name="portfolio_title">My Nanodegree App</string>
+    <string name="button1_title">SPOTIFY STREAMER</string>
+    <string name="button_title2">SCORES APP</string>
+    <string name="button_title3">LIBRARY APP</string>
+    <string name="button_title4">BUILD It BIGGER</string>
+    <string name="button_title5">XYZ READER</string>
+    <string name="button_title6">CAPSTONE: MY OWN APP</string>
+</resources>

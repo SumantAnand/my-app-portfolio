@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/sumant/Documents/QH%20Project%20CVS/QHOptho/AppPortfolio/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="background_color">#f0f4c3</color>
+    <color name="button_solid_color">#ffeb3b</color>
+    <color name="my_button_solid">#dd2c00</color>
+    <!-- From: file:/home/sumant/Documents/QH%20Project%20CVS/QHOptho/AppPortfolio/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/sumant/Documents/QH%20Project%20CVS/QHOptho/AppPortfolio/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/home/sumant/Documents/QH%20Project%20CVS/QHOptho/AppPortfolio/app/src/main/res/values/portfolio_string.xml -->
+    <eat-comment/>
+    <string name="activity_title">My App Portfolio</string>
+    <!-- From: file:/home/sumant/Documents/QH%20Project%20CVS/QHOptho/AppPortfolio/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">AppPortfolio</string>
+    <!-- From: file:/home/sumant/Documents/QH%20Project%20CVS/QHOptho/AppPortfolio/app/src/main/res/values/portfolio_string.xml -->
+    <eat-comment/>
+    <string name="button1_title">SPOTIFY STREAMER</string>
+    <string name="button_title2">SCORES APP</string>
+    <string name="button_title3">LIBRARY APP</string>
+    <string name="button_title4">BUILD It BIGGER</string>
+    <string name="button_title5">XYZ READER</string>
+    <string name="button_title6">CAPSTONE: MY OWN APP</string>
+    <string name="portfolio_title">My Nanodegree App</string>
+    <!-- From: file:/home/sumant/Documents/QH%20Project%20CVS/QHOptho/AppPortfolio/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Button_Style" parent="AppTheme">
+        <item name="android:background">@color/button_solid_color</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        </style>
+</resources>

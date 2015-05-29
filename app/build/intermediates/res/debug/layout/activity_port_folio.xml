@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".PortFolioActivity"
+    android:id="@+id/form"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/portfolio_title"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+         android:textColor="@color/my_button_solid"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_form"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+    <Button
+        style="@style/Button_Style"
+        android:text="@string/button1_title"
+        android:id="@+id/button1"
+        android:onClick="spotifyStreamer"
+      />
+
+
+    <Button
+       style="@style/Button_Style"
+        android:text="@string/button_title2"
+        android:id="@+id/button2"
+        android:onClick="scoreApp"
+      />
+
+
+
+    <Button
+
+        android:text="@string/button_title3"
+        android:id="@+id/button3"
+        style="@style/Button_Style"
+        android:onClick="libraryApp"/>
+
+
+
+    <Button
+        style="@style/Button_Style"
+        android:text="@string/button_title4"
+        android:id="@+id/button4"
+        android:onClick="buildItBigger"
+        />
+
+
+
+    <Button
+        android:text="@string/button_title5"
+        android:id="@+id/button5"
+        style="@style/Button_Style"
+        android:onClick="xyzReader"
+       />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_title6"
+            android:id="@+id/button6"
+            android:elevation="@dimen/activity_horizontal_margin"
+            android:background="@color/my_button_solid"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:typeface="serif"
+            android:onClick="myApp"/>
+
+
+
+    </TableLayout>
+
+
+
+</LinearLayout>
+<!-- From: file:/home/sumant/Documents/QH%20Project%20CVS/QHOptho/AppPortfolio/app/src/main/res/layout/activity_port_folio.xml -->
